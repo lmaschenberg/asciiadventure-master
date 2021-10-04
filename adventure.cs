@@ -90,7 +90,7 @@ namespace asciiadventure {
                             randNum = random.Next() % 100;
                             if(randNum < 40){
                                 new Wall(j, k, screen);
-                            }else if(randNum < 35){
+                            }else if(randNum < 55){
                                 mobs[screen.Index].Add(new Mob(j, k, screen));
                             }
                          }
